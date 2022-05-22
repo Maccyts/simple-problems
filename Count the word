@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <string.h>
+int c=1,i;
+char a[100];
+int main()
+{
+    scanf("%[^\n]",a);
+    for(i=0;a[i];i++)
+        if(a[i]==32)
+            c++;
+    printf("%d",c);
+}
