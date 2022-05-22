@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main()
+{
+    int *p;
+    scanf("%d %d %d",p,(p+1),(p+2));
+    printf("%d",*p + *(p+1) + *(p+2));
+    return 0;
+}
